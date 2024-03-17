@@ -29,7 +29,7 @@ namespace Calculator
 
 		private void mortgageCalculatorButton_Click(object sender, RoutedEventArgs e)
 		{
-			MortgageCaclulator page = new MortgageCaclulator();
+			MortgageCalculator page = new MortgageCalculator();
 			this.Content = page;
 		}
 	}
