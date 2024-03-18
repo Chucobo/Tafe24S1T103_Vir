@@ -32,5 +32,18 @@ namespace Calculator
 			MortgageCalculator page = new MortgageCalculator();
 			this.Content = page;
 		}
+
+		private void currencyCalculatorButton_Click(object sender, RoutedEventArgs e)
+		{
+			CurrencyCalculator page = new CurrencyCalculator();
+			this.Content = page;
+		}
+
+		private void mathCalculatorButton_Click(object sender, RoutedEventArgs e)
+		{
+			
+			MainPage page = new MainPage();
+			this.Content = page;
+		}
 	}
 }
