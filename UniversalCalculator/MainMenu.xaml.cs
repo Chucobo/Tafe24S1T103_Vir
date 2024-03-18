@@ -27,10 +27,10 @@ namespace Calculator
 			this.InitializeComponent();
 		}
 
-		private void mortgageCalculatorButton_Click(object sender, RoutedEventArgs e)
+		private void currencyCalculatorButton_Click(object sender, RoutedEventArgs e)
 		{
-			MortgageCaclulator page = new MortgageCaclulator();
+			CurrencyCalculator page = new CurrencyCalculator();
 			this.Content = page;
 		}
-	}
+    }
 }
