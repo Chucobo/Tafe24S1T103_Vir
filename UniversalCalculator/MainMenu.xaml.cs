@@ -45,5 +45,15 @@ namespace Calculator
 			MainPage page = new MainPage();
 			this.Content = page;
 		}
+
+		private void devMessageTextBlock_SelectionChanged(object sender, RoutedEventArgs e)
+		{
+			devMessageTextBlock.Text = "Trip calculator C# code will be developed later";
+		}
+
+		private void tripCalculator_Click(object sender, RoutedEventArgs e)
+		{
+			devMessageTextBlock.Text = "Trip calculator C# code will be developed later";
+		}
 	}
 }
