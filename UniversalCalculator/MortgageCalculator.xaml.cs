@@ -20,17 +20,11 @@ namespace Calculator
 	/// <summary>
 	/// An empty page that can be used on its own or navigated to within a Frame.
 	/// </summary>
-	public sealed partial class MainMenu : Page
+	public sealed partial class MortgageCalculator : Page
 	{
-		public MainMenu()
+		public MortgageCalculator()
 		{
 			this.InitializeComponent();
-		}
-
-		private void mortgageCalculatorButton_Click(object sender, RoutedEventArgs e)
-		{
-			MortgageCaclulator page = new MortgageCaclulator();
-			this.Content = page;
 		}
 	}
 }
