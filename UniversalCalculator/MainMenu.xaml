@@ -14,7 +14,9 @@
 		<Button Content="Math Calculator" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,80,0,0" Click="mathCalculatorButton_Click" Name="mathCalculator"/>
 		<Button x:Name="mortgageCalculatorButton" Content="Mortgage Calculator" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,120,0,0" Click="mortgageCalculatorButton_Click"/>
 		<Button x:Name="currencyCalculatorButton" Content="Currency Calculator" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,160,0,0" Click="currencyCalculatorButton_Click"/>
-		<Button Content="Exit" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,200,0,0"/>
+		<Button Content="Trip calculator" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,200,0,0" Click="tripCalculator_Click" x:Name="tripCalculator"/>
+		<TextBlock x:Name="devMessageTextBlock" Text="" Margin="20, 235"/>
+		<Button Content="Exit" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,260,0,0"/>
 		<Image Source="Assets/abacus.png" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,20,20,0" Width="50" Height="50"/>
 	</Grid>
 </Page>
