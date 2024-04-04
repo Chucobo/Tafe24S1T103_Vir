@@ -11,7 +11,7 @@
 	<Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 		<TextBlock Text="Universal Calculator" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,20,0,0" FontSize="24" FontWeight="Bold"/>
 
-		<Button Content="Math Calculator" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,80,0,0"/>
+		<Button Content="Math Calculator" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,80,0,0" Click="mathCalculatorButton_Click" Name="mathCalculator"/>
 		<Button x:Name="mortgageCalculatorButton" Content="Mortgage Calculator" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,120,0,0" Click="mortgageCalculatorButton_Click"/>
 		<Button x:Name="currencyCalculatorButton" Content="Currency Calculator" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,160,0,0" Click="currencyCalculatorButton_Click"/>
 		<Button Content="Exit" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,200,0,0"/>

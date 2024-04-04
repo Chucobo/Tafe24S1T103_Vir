@@ -36,5 +36,12 @@ namespace Calculator
 			MortgageCaclulator page = new MortgageCaclulator();
 			this.Content = page;
 		}
+
+		private void mathCalculatorButton_Click(object sender, RoutedEventArgs e)
+		{
+
+			MainPage page = new MainPage();
+			this.Content = page;
+		}
 	}
 }
